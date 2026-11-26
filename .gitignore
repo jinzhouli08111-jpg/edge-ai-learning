@@ -21,3 +21,9 @@ Listings/
 *.uvguix.*
 *.bak
 *.dep
+
+# Makefile 自动生成的依赖文件（-MMD -MP）
+*.d
+
+# 本机私有文档（在家目录 ~/SETUP.md，不进仓库）
+SETUP.md
