@@ -1,0 +1,23 @@
+# 编译产物
+*.o
+*.a
+*.so
+*.out
+hello
+
+# 调试
+*.dSYM/
+core
+vgcore.*
+
+# 编辑器
+.vscode/
+*.swp
+*~
+
+# Keil / MDK（Windows 侧工程）
+Objects/
+Listings/
+*.uvguix.*
+*.bak
+*.dep
